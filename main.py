@@ -9,8 +9,8 @@ img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_
 
 im = imread(img_url)
 
-st.image(im, caption='image from wikimedia commons',
-         use_column_width=True)
+st.image(im, caption='chenged caption image from wikimedia commons',
+         use_column_width=True))
 
 
 # show histgram of all colors
